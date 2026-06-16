@@ -31,7 +31,7 @@ jobs:
 
     steps:
       - name: deploy to GCP VM
-        uses: appleboy/ssh-actions@v1.0.3
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
